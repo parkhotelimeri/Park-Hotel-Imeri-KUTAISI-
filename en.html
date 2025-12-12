@@ -1,130 +1,176 @@
-<!DOCTYPE html>
-<html lang="ka">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Park Hotel Imeri – Kutaisi</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Park Hotel Imeri — Kutaisi</title>
+  <meta name="description" content="Park Hotel Imeri in Kutaisi — comfortable rooms, friendly service, easy booking." />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Park Hotel Imeri</a>
 
-<header class="site-header">
-  <div class="container header-flex">
-    <div class="logo">Park Hotel Imeri</div>
+      <nav class="nav">
+        <a href="#rooms">Rooms</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-    <nav class="nav">
-      <a href="#rooms">ოთახები</a>
-      <a href="#services">სერვისები</a>
-      <a href="#contact">კონტაქტი</a>
-    </nav>
-
-    <div class="lang">
-      <a class="active" href="index.html">KA</a>
-      <a href="en.html">EN</a>
-    </div>
-  </div>
-</header>
-
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <h1>Park Hotel Imeri</h1>
-      <p>
-        მყუდრო და კომფორტული სასტუმრო ქუთაისში — იდეალური არჩევანი დასვენებისა
-        და საქმიანი ვიზიტებისთვის.
-      </p>
-
-      <div class="buttons">
-        <a class="btn primary" href="#rooms">ოთახების ნახვა</a>
-        <a class="btn secondary" href="#contact">დაგვიკავშირდით</a>
+      <div class="lang">
+        <a class="lang-link" href="index.html">KA</a>
+        <a class="lang-link active" href="en.html">EN</a>
       </div>
     </div>
+  </header>
 
-    <div class="info-box">
-      <p><strong>ლოკაცია:</strong> ქუთაისი, ნიკეას ქ. 25</p>
-      <p><strong>Check-in:</strong> 14:00</p>
-      <p><strong>Check-out:</strong> 12:00</p>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Park Hotel Imeri</h1>
+        <p class="lead">
+          A cozy and comfortable hotel in Kutaisi — a great choice for your stay and travel.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Book / Contact</a>
+          <a class="btn" href="#rooms">View rooms</a>
+        </div>
+
+        <p class="hint">
+          *For booking and details — contact us via phone/WhatsApp/Email.
+        </p>
+      </div>
+
+      <div class="hero-right">
+        <div class="info-card">
+          <div class="info-title">Location: Kutaisi, Nikea St. 25</div>
+          <div class="info-row">Check-in: 14:00</div>
+          <div class="info-row">Check-out: 12:00</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rooms" class="section">
+      <h2>Rooms</h2>
+      <p class="muted">Choose the room that fits you best.</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Standard Double / Twin Room</h3>
+          <p class="muted">Comfortable double or twin room.</p>
+          <div class="tags">
+            <span class="tag">Wi-Fi</span>
+            <span class="tag">AC</span>
+            <span class="tag">TV</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Budget Double / Twin Room</h3>
+          <p class="muted">A budget-friendly double / twin option.</p>
+          <div class="tags">
+            <span class="tag">Wi-Fi</span>
+            <span class="tag">TV</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Single Room</h3>
+          <p class="muted">A single room for a quiet stay.</p>
+          <div class="tags">
+            <span class="tag">Wi-Fi</span>
+            <span class="tag">AC</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Junior Suite Room</h3>
+          <p class="muted">More space and comfort.</p>
+          <div class="tags">
+            <span class="tag">Balcony</span>
+            <span class="tag">Wi-Fi</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Two-bedroom Apartment</h3>
+          <p class="muted">Two-bedroom apartment — perfect for families.</p>
+          <div class="tags">
+            <span class="tag">Family</span>
+            <span class="tag">Kitchen</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="grid-2">
+        <div class="card">
+          <ul class="list">
+            <li>Breakfast (time/format on request)</li>
+            <li>Transfers</li>
+            <li><b>Airport transfer — 60 GEL</b></li>
+            <li>Wi-Fi</li>
+            <li>Clean rooms & daily housekeeping</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Note</h3>
+          <p class="muted">
+            Prices and conditions may change depending on season and availability.
+            Send us your dates and number of guests.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2>Gallery</h2>
+      <div class="card">
+        <p class="muted">We will add photos here next (rooms, yard, lobby).</p>
+        <div class="gallery-placeholder">Gallery placeholder</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="grid-2">
+        <div class="card">
+          <p class="muted">Contact us:</p>
+          <div class="contact-row"><b>Phone:</b> <span>+995 XXX XXX XXX</span></div>
+          <div class="contact-row"><b>WhatsApp:</b> <span>+995 XXX XXX XXX</span></div>
+          <div class="contact-row"><b>Email:</b> <span>info@example.com</span></div>
+
+          <div class="contact-actions">
+            <a class="btn primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn" href="mailto:info@example.com">Email</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Address</h3>
+          <p class="muted">Kutaisi, Nikea St. 25</p>
+          <div class="map-placeholder">Map placeholder</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© <span id="y"></span> Park Hotel Imeri</span>
+      <span class="muted">Made with GitHub Pages</span>
     </div>
-  </div>
-</section>
+  </footer>
 
-<section id="rooms" class="section">
-  <div class="container">
-    <h2>ოთახები</h2>
-
-    <div class="cards">
-
-      <div class="card">
-        <h3>Standard Double / Twin Room</h3>
-        <p>კომფორტული ორადგილიანი ან ტვინ ოთახი.</p>
-        <div class="tags">
-          <span>Wi-Fi</span><span>AC</span><span>TV</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Budget Double / Twin Room</h3>
-        <p>ეკონომიური ვარიანტი მოკლე ან ხანგრძლივი დარჩენისთვის.</p>
-        <div class="tags">
-          <span>Wi-Fi</span><span>TV</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Single Room</h3>
-        <p>ერთადგილიანი ოთახი ინდივიდუალური სტუმრებისთვის.</p>
-        <div class="tags">
-          <span>Wi-Fi</span><span>AC</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Junior Suite Room</h3>
-        <p>გაფართოებული ნომერი მეტი კომფორტისთვის.</p>
-        <div class="tags">
-          <span>Balcony</span><span>Wi-Fi</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Two-Bedroom Apartment</h3>
-        <p>ორი საძინებლით — იდეალურია ოჯახებისთვის.</p>
-        <div class="tags">
-          <span>Family</span><span>Kitchen</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="services" class="section dark">
-  <div class="container">
-    <h2>სერვისები</h2>
-
-    <ul class="services">
-      <li>საუზმე (დრო/ფორმატი შეთანხმებით)</li>
-      <li>ტრანსფერი ქალაქში (წინასწარი შეთანხმებით)</li>
-      <li>Wi-Fi მთელ სასტუმროში</li>
-      <li>სუფთა ნომრები და ყოველდღიური დასუფთავება</li>
-      <li><strong>აეროპორტის ტრანსფერი — 60 ლარი (ერთმხრივი)</strong></li>
-    </ul>
-  </div>
-</section>
-
-<section id="contact" class="section">
-  <div class="container">
-    <h2>კონტაქტი</h2>
-    <p>დაგვიკავშირდით ჯავშნის ან დეტალების მისაღებად</p>
-    <p><strong>📍 ქუთაისი, ნიკეას ქ. 25</strong></p>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container">
-    © Park Hotel Imeri, Kutaisi
-  </div>
-</footer>
-
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
