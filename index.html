@@ -1,112 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ka">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Park Hotel Imeri — Kutaisi</title>
+  <meta charset="UTF-8" />
+  <title>Park Hotel Imeri</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
-    <div class="brand">Park Hotel Imeri</div>
-
-    <nav class="nav" aria-label="Top menu">
-      <a href="#rooms">ოთახები</a>
-      <a href="#services">სერვისები</a>
-      <a href="#gallery">გალერეა</a>
-      <a href="#contact">კონტაქტი</a>
-    </nav>
-
-    <div class="lang-switch" aria-label="Language switch">
-      <a class="active" href="index.html">KA</a>
-      <a href="en.html">EN</a>
-    </div>
-  </div>
+<header class="topbar">
+  <div class="logo">Park Hotel Imeri</div>
+  <nav>
+    <a href="#rooms">ოთახები</a>
+    <a href="#services">სერვისები</a>
+    <a href="#gallery">გალერეა</a>
+    <a href="#contact">კონტაქტი</a>
+    <a href="en.html" class="lang">EN</a>
+  </nav>
 </header>
 
-<main class="container">
+<section class="hero">
+  <h1>Park Hotel Imeri</h1>
+  <p>მყუდრო და კომფორტული სასტუმრო ქუთაისში</p>
 
-  <section class="hero">
-    <h1>Park Hotel Imeri</h1>
-    <p>მყუდრო და კომფორტული სასტუმრო ქუთაისში — იდეალური არჩევანი დასვენებისა და მოგზაურობისთვის.</p>
-
-    <div class="hero-actions">
-      <a class="btn primary" href="https://booking-116243.otelms.com/booking/rooms" target="_blank" rel="noopener">Book now</a>
-      <a class="btn" href="https://www.google.com/maps/place/%E1%83%9E%E1%83%90%E1%83%A0%E1%83%99+%E1%83%B0%E1%83%9D%E1%83%A2%E1%83%94%E1%83%9A+%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%98/@42.2254227,42.6913283,17z/data=!4m11!3m10!1s0x405cf2b92d8eec25:0xbd73788b3bb6cac6!5m2!4m1!1i2!8m2!3d42.2254227!4d42.6913283!9m1!1b1!16s%2Fg%2F1q66klg97?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
-         target="_blank" rel="noopener">Leave a review</a>
-    </div>
-
-    <div class="card">
-      <div style="color:var(--muted); font-weight:700; margin-bottom:8px;">ლოკაცია და დროები</div>
-      <div>ლოკაცია: ქუთაისი, ნიკეას ქ. 25</div>
-      <div>Check-in: 14:00</div>
-      <div>Check-out: 12:00</div>
-    </div>
-  </section>
-
-  <!-- Rooms (შენი არსებული კონტენტი დატოვე როგორც გაქვს, მთავარია id იყოს) -->
-  <section id="rooms" class="section">
-    <h2>ოთახები</h2>
-    <!-- აქ დატოვე შენი cards/სია -->
-  </section>
-
-  <section id="services" class="section">
-    <h2>სერვისები</h2>
-    <!-- აქ დატოვე შენი კონტენტი -->
-  </section>
-
-  <section id="gallery" class="section">
-    <h2>გალერეა</h2>
-    <!-- აქ დატოვე შენი კონტენტი -->
-  </section>
-
-  <section id="contact" class="section">
-    <h2>კონტაქტი</h2>
-
-    <div class="contact-grid">
-      <div class="card">
-        <div style="font-weight:800; margin-bottom:10px;">დაგვიკავშირდით:</div>
-        <div><b>ტელ:</b> +995 599 297 163</div>
-        <div><b>WhatsApp:</b> +995 599 297 163</div>
-        <div><b>Email:</b> info.parkhotelimeri@gmail.com</div>
-
-        <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
-          <a class="btn primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
-          <a class="btn" href="mailto:info.parkhotelimeri@gmail.com">Email</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <div style="font-weight:800; margin-bottom:10px;">მისამართი</div>
-        <div style="color:var(--muted); margin-bottom:10px;">ქუთაისი, ნიკეას ქ. 25</div>
-
-        <div class="map-wrap">
-          <!-- აი ეს iframe არ უნდა იყოს <p> ან <pre> შიგნით, თორე ტექსტად გამოჩნდება -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.486299044702!2d42.688753375923774!3d42.22542267120572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405cf2b92d8eec25%3A0xbd73788b3bb6cac6!2z4YOe4YOQ4YOg4YOZIOGDsOGDneGDouGDlOGDmiDhg5jhg5vhg5Thg6Dhg5g!5e0!3m2!1ska!2sge!4v1765535794769!5m2!1ska!2sge"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-row">
-    <div>© <span id="y"></span> Park Hotel Imeri</div>
-    <div>Made with GitHub Pages</div>
+  <div class="buttons">
+    <a class="btn primary" href="https://booking-116243.otelms.com/booking/rooms" target="_blank">Book now</a>
+    <a class="btn" href="https://www.google.com/maps/place/%E1%83%9E%E1%83%90%E1%83%A0%E1%83%99+%E1%83%B0%E1%83%9D%E1%83%A2%E1%83%94%E1%83%9A+%E1%83%98%E1%83%9B%E1%83%94%E1%83%A0%E1%83%98/" target="_blank">Leave a review</a>
   </div>
-</footer>
 
-<script>
-  document.getElementById('y').textContent = new Date().getFullYear();
-</script>
+  <div class="info-box">
+    <strong>ლოკაცია:</strong> ქუთაისი, ნიკეას ქ. 25<br>
+    <strong>Check-in:</strong> 14:00<br>
+    <strong>Check-out:</strong> 12:00
+  </div>
+</section>
+
+<section id="rooms">
+  <h2>ოთახები</h2>
+  <div class="grid">
+    <div class="card">Standard Double / Twin Room<br><small>Wi-Fi • TV • AC</small></div>
+    <div class="card">Budget Double / Twin Room<br><small>Wi-Fi • TV</small></div>
+    <div class="card">Single Room<br><small>Wi-Fi • AC</small></div>
+    <div class="card">Junior Suite<br><small>Balcony • Wi-Fi</small></div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>სერვისები</h2>
+  <div class="grid">
+    <div class="card">უფასო Wi-Fi</div>
+    <div class="card">აეროპორტის ტრანსფერი</div>
+    <div class="card">საუზმე</div>
+    <div class="card">უფასო პარკინგი</div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>გალერეა</h2>
+  <div class="grid">
+    <div class="card">ფოტო 1</div>
+    <div class="card">ფოტო 2</div>
+    <div class="card">ფოტო 3</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>კონტაქტი</h2>
+  <div class="contact-box">
+    ტელ: +995 599 297 163<br>
+    WhatsApp: +995 599 297 163<br>
+    Email: info.parkhotelimeri@gmail.com<br><br>
+    <a class="btn whatsapp" href="https://wa.me/995599297163" target="_blank">WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Park Hotel Imeri
+</footer>
 
 </body>
 </html>
