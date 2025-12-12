@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Park Hotel Imeri — Kutaisi</title>
-  <meta name="description" content="Park Hotel Imeri in Kutaisi — comfortable rooms, friendly service, easy booking." />
+  <meta name="description" content="Park Hotel Imeri — a cozy and comfortable hotel in Kutaisi." />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header class="site-header">
+  <header class="site-header" id="top">
     <div class="container header-row">
-      <a class="brand" href="index.html">Park Hotel Imeri</a>
+      <div class="brand">
+        <div class="brand-title">Park Hotel Imeri</div>
+      </div>
 
       <nav class="nav">
         <a href="#rooms">Rooms</a>
@@ -27,136 +29,157 @@
     </div>
   </header>
 
-  <main class="container">
+  <main>
+    <!-- HERO -->
     <section class="hero">
-      <div class="hero-left">
-        <h1>Park Hotel Imeri</h1>
-        <p class="lead">
-          A cozy and comfortable hotel in Kutaisi — a great choice for your stay and travel.
-        </p>
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>Park Hotel Imeri</h1>
+          <p class="lead">
+            A cozy and comfortable hotel in Kutaisi — a great choice for your stay and travel.
+          </p>
 
-        <div class="hero-actions">
-          <a class="btn primary" href="#contact">Book / Contact</a>
-          <a class="btn" href="#rooms">View rooms</a>
-        </div>
-
-        <p class="hint">
-          *For booking and details — contact us via phone/WhatsApp/Email.
-        </p>
-      </div>
-
-      <div class="hero-right">
-        <div class="info-card">
-          <div class="info-title">Location: Kutaisi, Nikea St. 25</div>
-          <div class="info-row">Check-in: 14:00</div>
-          <div class="info-row">Check-out: 12:00</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="rooms" class="section">
-      <h2>Rooms</h2>
-      <p class="muted">Choose the room that fits you best.</p>
-
-      <div class="cards">
-        <div class="card">
-          <h3>Standard Double / Twin Room</h3>
-          <p class="muted">Comfortable double or twin room.</p>
-          <div class="tags">
-            <span class="tag">Wi-Fi</span>
-            <span class="tag">AC</span>
-            <span class="tag">TV</span>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Book / Contact</a>
+            <a class="btn" href="#rooms">View rooms</a>
           </div>
-        </div>
 
-        <div class="card">
-          <h3>Budget Double / Twin Room</h3>
-          <p class="muted">A budget-friendly double / twin option.</p>
-          <div class="tags">
-            <span class="tag">Wi-Fi</span>
-            <span class="tag">TV</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>Single Room</h3>
-          <p class="muted">A single room for a quiet stay.</p>
-          <div class="tags">
-            <span class="tag">Wi-Fi</span>
-            <span class="tag">AC</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>Junior Suite Room</h3>
-          <p class="muted">More space and comfort.</p>
-          <div class="tags">
-            <span class="tag">Balcony</span>
-            <span class="tag">Wi-Fi</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>Two-bedroom Apartment</h3>
-          <p class="muted">Two-bedroom apartment — perfect for families.</p>
-          <div class="tags">
-            <span class="tag">Family</span>
-            <span class="tag">Kitchen</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="section">
-      <h2>Services</h2>
-      <div class="grid-2">
-        <div class="card">
-          <ul class="list">
-            <li>Breakfast (time/format on request)</li>
-            <li>Transfers</li>
-            <li><b>Airport transfer — 60 GEL</b></li>
-            <li>Wi-Fi</li>
-            <li>Clean rooms & daily housekeeping</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Note</h3>
-          <p class="muted">
-            Prices and conditions may change depending on season and availability.
-            Send us your dates and number of guests.
+          <p class="note">
+            *For booking and details — contact us via phone/WhatsApp/Email.
           </p>
         </div>
-      </div>
-    </section>
 
-    <section id="gallery" class="section">
-      <h2>Gallery</h2>
-      <div class="card">
-        <p class="muted">We will add photos here next (rooms, yard, lobby).</p>
-        <div class="gallery-placeholder">Gallery placeholder</div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <div class="grid-2">
-        <div class="card">
-          <p class="muted">Contact us:</p>
-          <div class="contact-row"><b>Phone:</b> <span>+995 XXX XXX XXX</span></div>
-          <div class="contact-row"><b>WhatsApp:</b> <span>+995 XXX XXX XXX</span></div>
-          <div class="contact-row"><b>Email:</b> <span>info@example.com</span></div>
-
-          <div class="contact-actions">
-            <a class="btn primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
-            <a class="btn" href="mailto:info@example.com">Email</a>
+        <div class="hero-right">
+          <div class="card info-card">
+            <div class="info-line"><b>Location:</b> Kutaisi, Nikea St. 25</div>
+            <div class="info-line"><b>Check-in:</b> 14:00</div>
+            <div class="info-line"><b>Check-out:</b> 12:00</div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="card">
-          <h3>Address</h3>
-          <p class="muted">Kutaisi, Nikea St. 25</p>
-          <div class="map-placeholder">Map placeholder</div>
+    <!-- ROOMS -->
+    <section class="section" id="rooms">
+      <div class="container">
+        <h2>Rooms</h2>
+        <p class="muted">Choose the room that fits you best.</p>
+
+        <div class="grid rooms-grid">
+          <div class="card room-card">
+            <h3>Standard Double / Twin Room</h3>
+            <p class="muted">Comfortable double or twin room.</p>
+            <div class="tags">
+              <span class="tag">Wi-Fi</span><span class="tag">AC</span><span class="tag">TV</span>
+            </div>
+          </div>
+
+          <div class="card room-card">
+            <h3>Budget Double / Twin Room</h3>
+            <p class="muted">A budget-friendly double / twin option.</p>
+            <div class="tags">
+              <span class="tag">Wi-Fi</span><span class="tag">TV</span>
+            </div>
+          </div>
+
+          <div class="card room-card">
+            <h3>Single Room</h3>
+            <p class="muted">A single room for a quiet stay.</p>
+            <div class="tags">
+              <span class="tag">Wi-Fi</span><span class="tag">AC</span>
+            </div>
+          </div>
+
+          <div class="card room-card">
+            <h3>Junior Suite Room</h3>
+            <p class="muted">More space and comfort.</p>
+            <div class="tags">
+              <span class="tag">Balcony</span><span class="tag">Wi-Fi</span>
+            </div>
+          </div>
+
+          <div class="card room-card">
+            <h3>Two-bedroom Apartment</h3>
+            <p class="muted">Two-bedroom apartment — perfect for families.</p>
+            <div class="tags">
+              <span class="tag">Family</span><span class="tag">Kitchen</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2>Services</h2>
+
+        <div class="grid two-col">
+          <div class="card">
+            <ul class="list">
+              <li>Breakfast (time/format to be updated)</li>
+              <li>Transfer (if available — details to be updated)</li>
+              <li>Wi-Fi</li>
+              <li>Clean rooms & daily housekeeping</li>
+              <li><b>Airport transfer — 60 GEL</b></li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <p class="muted">
+              Note: you can easily change services and prices later — just edit this section.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="card gallery-placeholder">
+          <div class="muted">Gallery placeholder</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+
+        <div class="grid two-col">
+          <div class="card">
+            <p class="muted">Contact us:</p>
+
+            <div class="contact-row"><b>Phone:</b> <span>+995 599 297 163</span></div>
+            <div class="contact-row"><b>WhatsApp:</b> <span>+995 599 297 163</span></div>
+            <div class="contact-row"><b>Email:</b> <span>info.parkhotelimeri@gmail.com</span></div>
+
+            <div class="contact-actions">
+              <a class="btn primary" href="https://wa.me/995599297163" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="btn" href="mailto:info.parkhotelimeri@gmail.com">Email</a>
+              <a class="btn" href="tel:+995599297163">Call</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Address</h3>
+            <p class="muted">Kutaisi, Nikea St. 25</p>
+
+            <div class="map-embed">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.486299044702!2d42.688753375923774!3d42.22542267120572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405cf2b92d8eec25%3A0xbd73788b3bb6cac6!2z4YOe4YOQ4YOg4YOZIOGDsOGDneGDouGDlOGDmiDhg5jhg5vhg5Thg6Dhg5g!5e0!3m2!1ska!2sge!4v1765535794769!5m2!1ska!2sge"
+                width="100%"
+                height="320"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </section>
