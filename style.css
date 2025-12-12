@@ -1,91 +1,57 @@
-:root{
-  --bg:#0b0f14;
-  --card: rgba(255,255,255,.07);
-  --border: rgba(255,255,255,.10);
-  --text:#e9eef6;
-  --muted: rgba(233,238,246,.72);
-  --accent:#4ea1ff;
-  --radius:16px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
 }
 
-*{box-sizing:border-box}
-html,body{margin:0;padding:0}
-body{
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background:#0b0f14;
-  color:var(--text);
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1b1b1b;
 }
 
-a{text-decoration:none;color:inherit}
-.container{max-width:1100px;margin:0 auto;padding:18px}
-
-.topbar{
-  position:sticky;top:0;
-  background:rgba(11,15,20,.9);
-  border-bottom:1px solid rgba(255,255,255,.06);
-  z-index:10;
+.top a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
-.nav{
-  display:flex;
-  align-items:center;
-  gap:20px;
+.hero {
+  padding: 40px;
 }
 
-.brand{font-weight:700}
-
-.navlinks{
-  display:flex;
-  gap:16px;
-  color:var(--muted);
+.buttons {
+  margin: 20px 0;
 }
 
-
-.lang{
-  margin-left:auto;
-  display:flex;
-  gap:10px;
-}
-.lang a{
-  padding:6px 10px;
-  border-radius:999px;
-  border:1px solid rgba(255,255,255,.15);
-}
-.lang a.active{
-  background:rgba(78,161,255,.25);
+.btn {
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
-.card{
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:var(--radius);
-  padding:18px;
+.primary {
+  background: #2f80ed;
+  color: #fff;
 }
 
-.section{margin-top:24px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-
-.btn{
-  padding:10px 14px;
-  border-radius:12px;
-  border:1px solid rgba(255,255,255,.2);
-  background:rgba(255,255,255,.08);
-  display:inline-block;
-}
-.btn.primary{
-  background:#4ea1ff;
-  color:#000;
+.secondary {
+  background: #333;
+  color: #fff;
 }
 
-.map iframe{
-  width:100%;
-  height:420px; 
-  border:0;
-  border-radius:12px;
+.card {
+  background: #1e1e1e;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
 }
 
-@media(max-width:900px){
-  .grid{grid-template-columns:1fr}
-  .two-col{grid-template-columns:1fr}
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #aaa;
 }
