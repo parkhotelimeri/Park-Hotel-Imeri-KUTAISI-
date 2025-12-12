@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Park Hotel Imeri — Kutaisi</title>
+  <meta name="description" content="Park Hotel Imeri in Kutaisi. Comfortable rooms, friendly service, easy booking." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="en.html">Park Hotel Imeri</a>
+
+      <nav class="nav">
+        <a href="#rooms">Rooms</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="lang">
+        <a class="lang-link" href="index.html">KA</a>
+        <a class="lang-link active" href="en.html">EN</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Park Hotel Imeri</h1>
+          <p class="lead">
+            A cozy and comfortable hotel in Kutaisi — a great choice for travelers and families.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#contact">Book / Contact</a>
+            <a class="btn" href="#rooms">View rooms</a>
+          </div>
+
+          <p class="mini">
+            *All texts and photos are easy to edit — we’ll improve everything step by step.
+          </p>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-photo" aria-label="Hotel photo placeholder"></div>
+          <div class="hero-card-body">
+            <strong>Location:</strong> Kutaisi, Nikea St. 25<br/>
+            <strong>Check-in:</strong> 14:00 • <strong>Check-out:</strong> 12:00
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rooms" class="section">
+      <div class="container">
+        <h2>Rooms</h2>
+        <p class="muted">We’ll add room types, prices and short descriptions here.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Standard Room</h3>
+            <p>Short description…</p>
+            <div class="card-foot">
+              <span class="tag">Wi-Fi</span><span class="tag">AC</span><span class="tag">TV</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Deluxe Room</h3>
+            <p>Short description…</p>
+            <div class="card-foot">
+              <span class="tag">Balcony</span><span class="tag">Breakfast</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Apartment</h3>
+            <p>Short description…</p>
+            <div class="card-foot">
+              <span class="tag">Family</span><span class="tag">Kitchen</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid-2">
+          <ul class="list">
+            <li>Breakfast (time/details to add)</li>
+            <li>Transfer (if available — details to add)</li>
+            <li>Free Wi-Fi</li>
+            <li>Clean rooms & daily housekeeping</li>
+          </ul>
+          <div class="note">
+            <strong>Note:</strong> later we can add pricing inclusions, house rules, payment options, etc.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2>Gallery</h2>
+        <p class="muted">Placeholders for now — we’ll insert your real photos.</p>
+        <div class="gallery">
+          <div class="ph"></div>
+          <div class="ph"></div>
+          <div class="ph"></div>
+          <div class="ph"></div>
+          <div class="ph"></div>
+          <div class="ph"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Get in touch</h3>
+            <p class="muted">Add phone / WhatsApp / email here.</p>
+            <p>
+              <strong>Address:</strong> Kutaisi, Nikea St. 25<br/>
+              <strong>Phone:</strong> +995 ...<br/>
+              <strong>WhatsApp:</strong> +995 ...
+            </p>
+
+            <div class="cta-row">
+              <a class="btn primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="btn" href="mailto:info@example.com">Email</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Map</h3>
+            <p class="muted">We’ll embed Google Maps here (free).</p>
+            <div class="map-ph">Map placeholder</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© <span id="y"></span> Park Hotel Imeri</span>
+      <span class="muted">Made with GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
