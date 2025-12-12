@@ -1,189 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Park Hotel Imeri — Kutaisi</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Park Hotel Imeri</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <div class="topbar">
-    <div class="container nav">
-      <div class="brand">Park Hotel Imeri</div>
 
-      <div class="navlinks">
-        <a href="#rooms">Rooms</a>
-        <a href="#services">Services</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </div>
+<header class="top">
+  <div class="logo">Park Hotel Imeri</div>
+  <nav>
+    <a href="#rooms">Rooms</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="lang">
+    <a href="index.html">KA</a> |
+    <strong>EN</strong>
+  </div>
+</header>
 
-      <div class="lang">
-        <a href="index.html">KA</a>
-        <a class="active" href="en.html">EN</a>
-      </div>
-    </div>
+<section class="hero">
+  <h1>Park Hotel Imeri</h1>
+  <p>
+    A cozy and comfortable hotel in Kutaisi — a great choice for your stay and travel.
+  </p>
+
+  <div class="buttons">
+    <a class="btn primary"
+       href="https://booking-116243.otelms.com/booking/rooms"
+       target="_blank">Book now</a>
+
+    <a class="btn secondary"
+       href="https://search.google.com/local/writereview?placeid=ChIJV6C1dkNV2jERU5r3qS4CJBk"
+       target="_blank">Leave a review</a>
   </div>
 
-  <main class="container">
-    <section class="hero">
-      <div class="hero-card">
-        <h1>Park Hotel Imeri</h1>
-        <p class="lead">
-          A cozy and comfortable hotel in Kutaisi — a great choice for your stay and travel.
-        </p>
+  <div class="info">
+    Location: Kutaisi, Nikea St. 25<br>
+    Check-in: 14:00<br>
+    Check-out: 12:00
+  </div>
+</section>
 
-        <div class="actions">
-          <a class="btn primary" href="#contact">Book / Contact</a>
-          <a class="btn" href="#rooms">View rooms</a>
-        </div>
+<section id="contact" class="card">
+  <h2>Contact</h2>
+  Phone: +995 599 297 163<br>
+  WhatsApp: +995 599 297 163<br>
+  Email: info.parkhotelimeri@gmail.com
+</section>
 
-        <div class="note">
-          *For booking and details — contact us via phone/WhatsApp/Email.
-        </div>
-      </div>
+<section class="card">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.486299044702!2d42.688753375923774!3d42.22542267120572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405cf2b92d8eec25%3A0xbd73788b3bb6cac6!5e0!3m2!1sen!2sge!4v1765535794769"
+    width="100%"
+    height="420"
+    style="border:0; border-radius:12px;"
+    loading="lazy">
+  </iframe>
+</section>
 
-      <div class="info-card">
-        <div class="row">
-          <div class="kv">Location</div>
-          <div class="val">Kutaisi, Nikea St. 25</div>
-        </div>
-        <div style="height:10px"></div>
-        <div class="row">
-          <div class="kv">Check-in</div>
-          <div class="val">14:00</div>
-        </div>
-        <div style="height:10px"></div>
-        <div class="row">
-          <div class="kv">Check-out</div>
-          <div class="val">12:00</div>
-        </div>
-      </div>
-    </section>
+<footer>
+  © 2025 Park Hotel Imeri
+</footer>
 
-    <!-- Rooms -->
-    <section class="section" id="rooms">
-      <h2>Rooms</h2>
-      <div class="card muted" style="margin-bottom:12px">
-        Choose the room that fits you best.
-      </div>
-
-      <div class="grid">
-        <div class="card room">
-          <h3>Standard Double / Twin Room</h3>
-          <p>Comfortable double or twin room.</p>
-          <div class="chips">
-            <span class="chip">Wi-Fi</span>
-            <span class="chip">AC</span>
-            <span class="chip">TV</span>
-          </div>
-        </div>
-
-        <div class="card room">
-          <h3>Budget Double / Twin Room</h3>
-          <p>A budget-friendly double / twin option.</p>
-          <div class="chips">
-            <span class="chip">Wi-Fi</span>
-            <span class="chip">TV</span>
-          </div>
-        </div>
-
-        <div class="card room">
-          <h3>Single Room</h3>
-          <p>A single room for a quiet stay.</p>
-          <div class="chips">
-            <span class="chip">Wi-Fi</span>
-            <span class="chip">AC</span>
-          </div>
-        </div>
-
-        <div class="card room">
-          <h3>Junior Suite Room</h3>
-          <p>More space and comfort.</p>
-          <div class="chips">
-            <span class="chip">Balcony</span>
-            <span class="chip">Wi-Fi</span>
-          </div>
-        </div>
-
-        <div class="card room">
-          <h3>Two-bedroom Apartment</h3>
-          <p>Two-bedroom apartment — perfect for families.</p>
-          <div class="chips">
-            <span class="chip">Family</span>
-            <span class="chip">Kitchen</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services -->
-    <section class="section" id="services">
-      <h2>Services</h2>
-      <div class="card">
-        <ul style="margin:0; padding-left:18px; color:var(--muted); font-weight:650">
-          <li>Breakfast (time/format to be updated)</li>
-          <li>Transfer (if available — details to be updated)</li>
-          <li>Wi-Fi</li>
-          <li>Clean rooms & daily housekeeping</li>
-          <li>Airport transfer — 60 GEL</li>
-        </ul>
-        <div class="note">You can easily change services and prices later — just edit this section.</div>
-      </div>
-    </section>
-
-    <!-- Gallery -->
-    <section class="section" id="gallery">
-      <h2>Gallery</h2>
-      <div class="card muted" style="text-align:center; padding:40px 18px;">
-        Gallery placeholder
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="section" id="contact">
-      <h2>Contact</h2>
-
-      <div class="two-col">
-        <div class="card">
-          <p class="muted" style="margin-top:0">Contact us:</p>
-
-          <div class="contact-row"><b>Phone:</b> <span>+995 599 297 163</span></div>
-          <div class="contact-row"><b>WhatsApp:</b> <span>+995 599 297 163</span></div>
-          <div class="contact-row"><b>Email:</b> <span>parkhotelimeri@gmail.com</span></div>
-
-          <div class="contact-actions">
-            <a class="btn primary" target="_blank" rel="noopener"
-               href="https://wa.me/995599297163">WhatsApp</a>
-
-            <a class="btn" href="mailto:parkhotelimeri@gmail.com">Email</a>
-
-            <a class="btn" href="tel:+995599297163">Call</a>
-          </div>
-        </div>
-
-        <div class="card map-wrap">
-          <h3 style="margin:0 0 6px">Address</h3>
-          <p class="muted" style="margin:0 0 12px">Kutaisi, Nikea St. 25</p>
-
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.486299044702!2d42.688753375923774!3d42.22542267120572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405cf2b92d8eec25%3A0xbd73788b3bb6cac6!2z4YOe4YOQ4YOg4YOZIOGDsOGDneGDouGDlOGDmiDhg5jhg5vhg5Thg6Dhg5g!5e0!3m2!1ska!2sge!4v1765535794769!5m2!1ska!2sge"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-        </div>
-      </div>
-    </section>
-
-    <footer class="site-footer">
-      <div>© <span id="y"></span> Park Hotel Imeri</div>
-      <div class="muted">Made with GitHub Pages</div>
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
